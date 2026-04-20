@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Book Search</title>
+    <!-- Importing the external stylesheet -->
+    <link rel="stylesheet" href="books.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Paisley Bookshelf</h1>
+        <div class="search-box">
+            <input type="text" id="titleInput" placeholder="Search by book title (e.g. 'The')...">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="results"></div>
+    </div>
+
+    <!-- Firebase App and Firestore Logic -->
+    <script type="module" crossorigin src="app.js"></script>
+</body>
+</html>
